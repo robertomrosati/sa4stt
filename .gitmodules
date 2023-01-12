@@ -1,6 +1,0 @@
-[submodule "easylocal-3"]
-	path = easylocal-3
-	url = git@bitbucket.org:satt/easylocal-3.git
-[submodule "solver/pugixml"]
-	path = solver/pugixml
-	url = https://github.com/zeux/pugixml.git
