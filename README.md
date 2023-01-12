@@ -5,7 +5,7 @@ Rosati, R.M., Petris, M., Di Gaspero, L., and Schaerf, A. Multi-neighborhood sim
 
 -------------
 
-Our code is based in C++. It requires library libboost, minimum version=1.71. On Linux you can install the package libboost1.71-dev installed. It also requires cmake for compiling.
+Our code is based in C++. It requires library libboost, minimum version=1.71. On Linux you can install the package libboost1.71-dev. It also requires cmake for compiling.
 
 #### How to compile sa4stt
 To compile it, from the main folder:
