@@ -8,14 +8,14 @@ Rosati, R.M., Petris, M., Di Gaspero, L., and Schaerf, A. Multi-neighborhood sim
 Our code is based in C++. It requires library libboost, minimum version=1.71. On Linux you can install the package libboost1.71-dev. It also requires cmake for compiling.
 
 #### How to compile sa4stt
-To compile it, from the main folder:
+To compile it, from the root folder of the repository:
 
 ```bash
 cmake -DCMAKE_BUILD_TYPE=Release .
 make
 ```
 #### How to run sa4stt
-The executable will be in the bin folder. To call it, from the main folder itc2021, you can run:
+The executable will be in the bin folder. To call it, from the root folder, you can run:
 
 ```bash
 ./bin/stt [parameters...]
