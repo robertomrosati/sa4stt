@@ -1,5 +1,5 @@
 # sa4stt
-### Simulated Annealing for Sports Timetabling ITC2021 formulation
+### Simulated Annealing for Sports Timetabling (ITC2021 formulation)
 
 Rosati, R.M., Petris, M., Di Gaspero, L., and Schaerf, A. Multi-neighborhood simulated annealing for the sports timetabling competition ITC2021. J Sched 25, 301–319 (2022). https://doi.org/10.1007/s10951-022-00740-y
 
