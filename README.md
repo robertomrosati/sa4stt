@@ -10,7 +10,14 @@ Our code is based in C++. It requires library libboost, minimum version=1.71. On
 sa4stt uses, additionally, the packages EasyLocal++ (https://bitbucket.org/satt/easylocal-3) and pugixml (https://pugixml.org/).
 
 #### How to compile sa4stt
-To compile it, from the root folder of the repository:
+First of all, be sure that the submodules are cloned. From the root folder of the repository:
+
+```bash
+git submodule init
+git submodule update
+```
+
+Then, to compile it:
 
 ```bash
 cmake -DCMAKE_BUILD_TYPE=Release .
