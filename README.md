@@ -1,21 +1,20 @@
 # sa4stt
 ## Simulated Annealing for Sports Timetabling ITC2021 formulation (Rosati, Petris, Di Gaspero, and Schaerf)
-Our code is based in C++ and it employs certain features from the library libboost, so you'll need to have the package libboost1.71-dev installed. It also requires cmake for compiling. 
+Our code is based in C++. It library libboost > 1.71. On Linux you can install the package libboost1.71-dev installed. It also requires cmake for compiling. 
 
+####how to compile sa4stt
 To compile it, from the main folder:
 
 ```bash
 cmake -DCMAKE_BUILD_TYPE=Release .
 make
 ```
-
+####how to run sa4stt
 Then the executable will be in the bin folder. To call it, from the main folder itc2021, you can run:
 
 ```bash
 ./bin/stt [parameters...]
 ```
-
-
 The algorithm is a three-stages Simulated Annealing (SA) that takes several parameters in input, but to make things easy the best parameters resulting from the tuning are encoded as default ones. For example you can call the solver on instance Late 15 in this way:
 
 ```bash
