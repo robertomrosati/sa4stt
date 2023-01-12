@@ -52,7 +52,7 @@ You can of course also pass all the parameters for each of the three stages of t
 ./bin/stt --main::instance instances/all/all/ITC2021_Late_15.xml --main::method ESA-3S  --HW::CA1 7 --HW::CA2 8 --HW::CA3 2 --HW::CA4 8 --HW::GA1 10 --HW::BR1 1 --HW::BR2 6 --HW::FA2 1 --HW::SE1 1  --STAGE1_2::start_temperature 100  --STAGE1_2::cooling_rate 0.99 --STAGE1_2::expected_min_temperature 1 --STAGE1_2::neighbors_accepted_ratio 0.1  --STAGE2::start_temperature 100 --STAGE2::cooling_rate 0.99 --STAGE2::expected_min_temperature 1 --STAGE2::neighbors_accepted_ratio 0.1  --main::hard_weight 10 --main::phased_weight 117 --STAGE1::start_temperature 179  --STAGE1::cooling_rate 0.99 --STAGE1::expected_min_temperature 2.1 --STAGE1::neighbors_accepted_ratio 0.1 --main::j2rmode-enable --main::start_type random --STAGE1::max_evaluations 100000 --STAGE1_2::max_evaluations 100000 --STAGE2::max_evaluations 10000
 ```
 --------------
-If you are using our code, please cite us in this way:
+How to cite:
 
 ```latex
 @article{sa4stt,
